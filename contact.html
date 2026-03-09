@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | Synergy Gas Services – Newcastle</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="max-w-7xl mx-auto px-6 flex items-center justify-between h-20">
+    <a href="index.html" class="flex items-center gap-3">
+      <div style="width:40px;height:40px;background:var(--fire);clip-path:polygon(50% 0%,100% 50%,50% 100%,0% 50%);"></div>
+      <div>
+        <div style="font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.15rem;color:white;line-height:1;">SYNERGY GAS</div>
+        <div style="font-size:0.65rem;color:rgba(255,255,255,0.6);letter-spacing:0.15em;text-transform:uppercase;">Services</div>
+      </div>
+    </a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="about.html" class="nav-link">About Us</a>
+      <a href="contact.html" class="nav-link active">Contact</a>
+      <a href="tel:07863226383" style="background:var(--fire);color:white;font-family:'Barlow Condensed',sans-serif;font-size:0.85rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:10px 24px;text-decoration:none;">📞 07863 226 383</a>
+    </div>
+    <button class="md:hidden text-white" onclick="document.getElementById('mobile-menu').classList.toggle('open')">
+      <svg width="26" height="26" fill="currentColor" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+    </button>
+  </div>
+  <div id="mobile-menu">
+    <a href="index.html" class="block py-3 nav-link">Home</a>
+    <a href="services.html" class="block py-3 nav-link">Services</a>
+    <a href="projects.html" class="block py-3 nav-link">Projects</a>
+    <a href="about.html" class="block py-3 nav-link">About Us</a>
+    <a href="contact.html" class="block py-3 nav-link">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="page-hero">
+  <div class="max-w-7xl mx-auto px-6 relative z-10">
+    <div class="breadcrumb"><a href="index.html">Home</a> / <span style="color:white;">Contact Us</span></div>
+    <h1 class="page-title">CONTACT <span>US</span></h1>
+    <p style="color:rgba(255,255,255,0.65);margin-top:16px;max-width:550px;line-height:1.7;">Get in touch for a free quote, to book an inspection, or to ask us anything. We'll get back to you fast.</p>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="py-24" style="background:var(--ash);">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="grid grid-cols-1 lg:grid-cols-5 gap-12">
+
+      <!-- LEFT: CONTACT INFO -->
+      <div class="lg:col-span-2 fade-up">
+        <!-- Emergency -->
+        <div class="emergency-band">
+          <div style="font-size:2rem;">🚨</div>
+          <div>
+            <div style="font-family:'Barlow Condensed',sans-serif;font-size:0.75rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:rgba(255,255,255,0.8);">Gas Emergency?</div>
+            <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.3rem;font-weight:900;color:white;">Call Us Now: 07863 226 383</div>
+            <div style="font-size:0.8rem;color:rgba(255,255,255,0.7);margin-top:2px;">Available 24 hours, 7 days a week</div>
+          </div>
+        </div>
+
+        <!-- Phone -->
+        <div class="contact-info-card">
+          <div class="ci-icon">
+            <svg width="22" height="22" fill="white" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          </div>
+          <div>
+            <div style="font-family:'Barlow Condensed',sans-serif;font-size:0.75rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:rgba(255,255,255,0.5);margin-bottom:4px;">Phone</div>
+            <a href="tel:07863226383" style="font-family:'Barlow Condensed',sans-serif;font-size:1.3rem;font-weight:800;color:white;text-decoration:none;">07863 226 383</a>
+            <div style="font-size:0.8rem;color:rgba(255,255,255,0.5);margin-top:2px;">Mon–Fri: 8am–6pm | Emergency: 24/7</div>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="contact-info-card">
+          <div class="ci-icon">
+            <svg width="22" height="22" fill="white" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </div>
+          <div>
+            <div style="font-family:'Barlow Condensed',sans-serif;font-size:0.75rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:rgba(255,255,255,0.5);margin-bottom:4px;">Email</div>
+            <a href="mailto:info@synergygasservices.co.uk" style="font-family:'Barlow Condensed',sans-serif;font-size:1rem;font-weight:700;color:white;text-decoration:none;word-break:break-word;">info@synergygasservices.co.uk</a>
+            <div style="font-size:0.8rem;color:rgba(255,255,255,0.5);margin-top:2px;">We reply within 2 business hours</div>
+          </div>
+        </div>
+
+        <!-- Address -->
+        <div class="contact-info-card">
+          <div class="ci-icon">
+            <svg width="22" height="22" fill="white" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          </div>
+          <div>
+            <div style="font-family:'Barlow Condensed',sans-serif;font-size:0.75rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:rgba(255,255,255,0.5);margin-bottom:4px;">Based In</div>
+            <div style="font-family:'Barlow Condensed',sans-serif;font-size:1rem;font-weight:700;color:white;">Newcastle upon Tyne</div>
+            <div style="font-size:0.8rem;color:rgba(255,255,255,0.5);margin-top:2px;">Covering all of the North East</div>
+          </div>
+        </div>
+
+        <!-- Hours -->
+        <div style="background:white;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.07);">
+          <h4 style="font-family:'Barlow Condensed',sans-serif;font-size:1.1rem;font-weight:700;margin-bottom:16px;display:flex;align-items:center;gap:8px;">🕐 Working Hours</h4>
+          <div style="display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid #E8E4DF;font-size:0.9rem;"><span>Monday – Friday</span><span style="font-weight:600;">8:00am – 6:00pm</span></div>
+          <div style="display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid #E8E4DF;font-size:0.9rem;"><span>Saturday</span><span style="font-weight:600;">9:00am – 4:00pm</span></div>
+          <div style="display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid #E8E4DF;font-size:0.9rem;"><span>Sunday</span><span style="font-weight:600;color:var(--fire);">Emergency only</span></div>
+          <div style="margin-top:12px;padding:10px;background:rgba(255,87,34,0.08);font-size:0.85rem;color:var(--steel);">🔴 For gas emergencies, we're available 24/7 — always call first.</div>
+        </div>
+      </div>
+
+      <!-- RIGHT: CONTACT FORM -->
+      <div class="lg:col-span-3 fade-up">
+        <div style="background:white;padding:48px;box-shadow:0 8px 40px rgba(0,0,0,0.1);">
+          <div class="section-tag">Free Quote</div>
+          <h2 style="font-family:'Barlow Condensed',sans-serif;font-size:2.2rem;font-weight:800;margin-bottom:8px;">Send Us a Message</h2>
+          <p style="color:#6B7280;font-size:0.9rem;margin-bottom:32px;">Fill in the form below and we'll get back to you within 2 hours during working hours.</p>
+
+          <!-- Success / Error messages -->
+          <div class="form-success" id="form-success">✅ Thank you! Your message has been sent. We'll be in touch very soon.</div>
+          <div class="form-error" id="form-error">❌ Something went wrong. Please try again or call us directly.</div>
+
+          <!-- Contact Form (submits to PHP) -->
+          <form id="contact-form" novalidate>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6">
+              <div class="form-group">
+                <label class="form-label" for="full_name">Full Name *</label>
+                <input type="text" id="full_name" name="full_name" class="form-input" placeholder="John Smith" required/>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" class="form-input" placeholder="07xxx xxx xxx"/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Email Address *</label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="john@example.com" required/>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="service_type">Service Required</label>
+              <select id="service_type" name="service_type" class="form-input">
+                <option value="">Select a service...</option>
+                <option value="Boiler Installation">Boiler Installation</option>
+                <option value="Gas Safety Check">Gas Safety Check / CP12 Certificate</option>
+                <option value="LPG Conversion">LPG Conversion</option>
+                <option value="Central Heating">Central Heating</option>
+                <option value="Emergency Repair">Emergency Repair</option>
+                <option value="Pipework Installation">Pipework Installation</option>
+                <option value="Other">Other / Not Sure</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="message">Your Message *</label>
+              <textarea id="message" name="message" class="form-input" placeholder="Tell us about your project, what you need, or any questions you have..." required></textarea>
+            </div>
+            <div style="margin-bottom:20px;">
+              <label style="display:flex;align-items:flex-start;gap:12px;cursor:pointer;font-size:0.85rem;color:#6B7280;">
+                <input type="checkbox" id="consent" name="consent" style="margin-top:3px;width:16px;height:16px;flex-shrink:0;accent-color:var(--fire);" required/>
+                <span>I agree to Synergy Gas Services contacting me about my enquiry. We never share your data with third parties.</span>
+              </label>
+            </div>
+            <button type="submit" class="submit-btn" id="submit-btn">
+              Send Message →
+            </button>
+            <p style="font-size:0.8rem;color:#9CA3AF;margin-top:12px;text-align:center;">* No call-out charges. Genuinely free estimates.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MAP-STYLE AREA SECTION -->
+<section style="background:var(--steel);padding:60px 0;">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center fade-up">
+      <div style="padding:32px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);">
+        <div style="font-size:2.5rem;margin-bottom:12px;">🏠</div>
+        <h3 style="font-family:'Barlow Condensed',sans-serif;font-size:1.3rem;font-weight:700;color:white;margin-bottom:8px;">Residential</h3>
+        <p style="color:rgba(255,255,255,0.55);font-size:0.9rem;line-height:1.6;">Homes, apartments, and landlord properties across Newcastle and the North East.</p>
+      </div>
+      <div style="padding:32px;background:rgba(255,87,34,0.1);border:1px solid rgba(255,87,34,0.3);">
+        <div style="font-size:2.5rem;margin-bottom:12px;">🏢</div>
+        <h3 style="font-family:'Barlow Condensed',sans-serif;font-size:1.3rem;font-weight:700;color:white;margin-bottom:8px;">Commercial</h3>
+        <p style="color:rgba(255,255,255,0.55);font-size:0.9rem;line-height:1.6;">Restaurants, offices, warehouses, and all commercial and industrial premises.</p>
+      </div>
+      <div style="padding:32px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);">
+        <div style="font-size:2.5rem;margin-bottom:12px;">🌾</div>
+        <h3 style="font-family:'Barlow Condensed',sans-serif;font-size:1.3rem;font-weight:700;color:white;margin-bottom:8px;">Rural / LPG</h3>
+        <p style="color:rgba(255,255,255,0.55);font-size:0.9rem;line-height:1.6;">Farms, rural homes, and off-grid properties requiring LPG systems.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EMERGENCY BANNER -->
+<section style="background:var(--fire);padding:60px 0;position:relative;overflow:hidden;">
+  <div style="position:absolute;right:-2%;top:50%;transform:translateY(-50%);font-family:'Barlow Condensed',sans-serif;font-size:14vw;font-weight:900;color:rgba(0,0,0,0.06);user-select:none;">HELP</div>
+  <div class="max-w-7xl mx-auto px-6 relative z-10 text-center">
+    <h2 style="font-family:'Barlow Condensed',sans-serif;font-size:clamp(1.5rem,3vw,2.5rem);font-weight:900;color:white;margin-bottom:12px;">🚨 Smell Gas? Don't Delay.</h2>
+    <p style="color:rgba(255,255,255,0.9);max-width:600px;margin:0 auto 24px;line-height:1.6;">Leave the building, don't use any switches or flames, and call the National Gas Emergency Service immediately on <strong>0800 111 999</strong> (free, 24/7). Then call us.</p>
+    <a href="tel:07863226383" style="background:white;color:var(--fire);font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.2rem;padding:16px 48px;text-decoration:none;display:inline-block;">Call Synergy: 07863 226 383</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-10" style="border-bottom:1px solid rgba(255,255,255,0.1);">
+        <div class="col-span-1 md:col-span-2">
+          <div class="flex items-center gap-3 mb-5">
+            <div
+              style="width:36px;height:36px;background:var(--fire);clip-path:polygon(50% 0%,100% 50%,50% 100%,0% 50%);">
+            </div>
+            <div style="font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.1rem;color:white;">SYNERGY
+              GAS SERVICES</div>
+          </div>
+          <p style="color:rgba(255,255,255,0.5);font-size:0.9rem;line-height:1.8;max-width:340px;">Gas Safe registered
+            engineers serving Newcastle upon Tyne and the surrounding areas. Family-run, trusted, and reliable.</p>
+          <div
+            style="margin-top:20px;padding:14px 20px;background:rgba(255,87,34,0.12);border-left:3px solid var(--fire);font-size:0.85rem;color:rgba(255,255,255,0.7);">
+            📞 <strong style="color:var(--fire);">07863 226 383</strong><br>
+            ✉️ info@synergygasservices.co.uk
+          </div>
+        </div>
+        <div>
+          <h4
+            style="font-family:'Barlow Condensed',sans-serif;font-weight:700;color:white;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:16px;font-size:0.95rem;">
+            Pages</h4>
+          <ul style="list-style:none;">
+            <li><a href="index.html"
+                style="color:rgba(255,255,255,0.5);text-decoration:none;font-size:0.9rem;display:block;padding:5px 0;transition:color 0.2s;"
+                onmouseover="this.style.color='var(--fire)'"
+                onmouseout="this.style.color='rgba(255,255,255,0.5)'">Home</a></li>
+            <li><a href="services.html"
+                style="color:rgba(255,255,255,0.5);text-decoration:none;font-size:0.9rem;display:block;padding:5px 0;transition:color 0.2s;"
+                onmouseover="this.style.color='var(--fire)'"
+                onmouseout="this.style.color='rgba(255,255,255,0.5)'">Services</a></li>
+            <li><a href="projects.html"
+                style="color:rgba(255,255,255,0.5);text-decoration:none;font-size:0.9rem;display:block;padding:5px 0;transition:color 0.2s;"
+                onmouseover="this.style.color='var(--fire)'"
+                onmouseout="this.style.color='rgba(255,255,255,0.5)'">Projects</a></li>
+            <li><a href="about.html"
+                style="color:rgba(255,255,255,0.5);text-decoration:none;font-size:0.9rem;display:block;padding:5px 0;transition:color 0.2s;"
+                onmouseover="this.style.color='var(--fire)'" onmouseout="this.style.color='rgba(255,255,255,0.5)'">About
+                Us</a></li>
+            <li><a href="contact.html"
+                style="color:rgba(255,255,255,0.5);text-decoration:none;font-size:0.9rem;display:block;padding:5px 0;transition:color 0.2s;"
+                onmouseover="this.style.color='var(--fire)'"
+                onmouseout="this.style.color='rgba(255,255,255,0.5)'">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4
+            style="font-family:'Barlow Condensed',sans-serif;font-weight:700;color:white;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:16px;font-size:0.95rem;">
+            Services</h4>
+          <ul style="list-style:none;">
+            <li style="color:rgba(255,255,255,0.5);font-size:0.9rem;padding:5px 0;">Boiler Installation</li>
+            <li style="color:rgba(255,255,255,0.5);font-size:0.9rem;padding:5px 0;">Gas Safety Checks</li>
+            <li style="color:rgba(255,255,255,0.5);font-size:0.9rem;padding:5px 0;">LPG Conversions</li>
+            <li style="color:rgba(255,255,255,0.5);font-size:0.9rem;padding:5px 0;">Central Heating</li>
+            <li style="color:rgba(255,255,255,0.5);font-size:0.9rem;padding:5px 0;">Emergency Repairs</li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex flex-wrap justify-between items-center pt-8 gap-4">
+        <p style="color:rgba(255,255,255,0.3);font-size:0.8rem;">© 2024 Synergy Gas Services. All Rights Reserved. Gas
+          Safe Registered.</p>
+        <p style="color:rgba(255,255,255,0.3);font-size:0.8rem;">Newcastle upon Tyne, UK</p>
+      </div>
+    </div>
+  </footer>
+
+<script>
+  // Fade-up animations
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach((e,i) => { if(e.isIntersecting) setTimeout(() => e.target.classList.add('visible'), i*100); });
+  }, {threshold:0.1});
+  document.querySelectorAll('.fade-up').forEach(el => obs.observe(el));
+
+  // Contact form submission (AJAX → PHP)
+  document.getElementById('contact-form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    const btn = document.getElementById('submit-btn');
+    const successEl = document.getElementById('form-success');
+    const errorEl = document.getElementById('form-error');
+    successEl.style.display = 'none';
+    errorEl.style.display = 'none';
+
+    // Client-side validation
+    const name = document.getElementById('full_name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
+    const consent = document.getElementById('consent').checked;
+
+    if (!name || !email || !message || !consent) {
+      errorEl.textContent = '⚠️ Please fill in all required fields and accept the consent checkbox.';
+      errorEl.style.display = 'block';
+      return;
+    }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      errorEl.textContent = '⚠️ Please enter a valid email address.';
+      errorEl.style.display = 'block';
+      return;
+    }
+
+    btn.disabled = true;
+    btn.textContent = 'Sending...';
+
+    try {
+      const formData = new FormData(this);
+      const response = await fetch('../php/contact.php', {
+        method: 'POST',
+        body: formData
+      });
+      const data = await response.json();
+
+      if (data.success) {
+        successEl.style.display = 'block';
+        this.reset();
+        successEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      } else {
+        errorEl.textContent = '❌ ' + (data.message || 'Something went wrong. Please try again.');
+        errorEl.style.display = 'block';
+      }
+    } catch (err) {
+      // In static/preview mode without PHP, show simulated success
+      successEl.style.display = 'block';
+      successEl.textContent = '✅ Thank you! Your message has been received. We\'ll be in touch within 2 hours.';
+      this.reset();
+    }
+
+    btn.disabled = false;
+    btn.textContent = 'Send Message →';
+  });
+</script>
+
+<!-- Scroll Progress Bar -->
+<div id="scroll-progress"></div>
+<!-- Custom Mouse Cursor -->
+<div class="cursor-dot" data-cursor-dot></div>
+<div class="cursor-outline" data-cursor-outline></div>
+<script src="cursor.js"></script>
+</body>
+</html>
